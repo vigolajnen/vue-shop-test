@@ -1,0 +1,25 @@
+.fh-cart {
+  &__counter {
+    @apply invisible md:visible rounded-full bg-white w-6 h-6 p-1 m-0 mr-2 text-brand font-mono text-sm text-center;
+  }
+
+  &__title {
+    @apply invisible md:visible order-first md:order-last;
+  }
+
+  &__icon {
+    @apply flex-1 w-6 h-6 mr-2;
+  }
+}
+
+.fh-cart-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+}
+
+.fh-cart {
+  &__counter {
+    padding-top: 0.15rem;
+  }
+}

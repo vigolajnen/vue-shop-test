@@ -1,4 +1,4 @@
-# lern-go-shop
+# vue-shop-test
 
 ## Project setup
 ```

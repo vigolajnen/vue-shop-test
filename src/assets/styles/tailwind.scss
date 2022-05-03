@@ -1,0 +1,12 @@
+/* Tailwind base */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+/* Custom Components */
+@import "./button.scss";
+@import "./fh-header.scss";
+@import "./fh-cart.scss";
+@import "./item.scss";
+

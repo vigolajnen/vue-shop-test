@@ -1,0 +1,19 @@
+.fh-header {
+  @apply p-4 pb-0 border-b shadow-lg bg-brand text-white md:flex md:items-center md:justify-between md:pb-4;
+
+  &__wrapper {
+    @apply container flex justify-between mx-auto;
+  }
+
+  &__brand {
+    @apply mb-4 flex items-center justify-between md:mb-0 text-center md:text-left;
+  }
+
+  &__cart {
+    @apply flex md:items-center w-auto h-10 md:px-5 transition-colors duration-150 md:border rounded-lg;
+  }
+}
+
+.fh-main {
+  @apply container flex justify-between mx-auto px-4;
+}
